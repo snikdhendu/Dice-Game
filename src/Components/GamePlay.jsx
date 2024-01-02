@@ -19,7 +19,7 @@ const GamePlay = ({toggle}) => {
     if (!isRolling && selectedNumber) {
       setIsRolling(true);
 
-      const rollTime = 1500; // Adjust this time based on your GIF or animation duration
+      const rollTime = 1000; // Adjust this time based on your GIF or animation duration
       const randomNumber = generateRandom(1, 7);
 
       // Play dice roll sound
@@ -52,7 +52,7 @@ const GamePlay = ({toggle}) => {
 
 
   return (
-    <div className='bg-gradient-to-bl from-blue-900 to-black min-h-screen flex items-center flex-col'>
+    <div className='bg-gradient-to-bl from-blue-900 to-black min-h-screen flex items-center flex-col overflow-hidden'>
     <Topsection selectedNumber={selectedNumber} setSelectedNumber={setSelectedNumber} score={score} error={error} setError={setError}/>
     <Rolldice currentDice={currentDice} roleDice={roleDice} isRolling={isRolling} />
     <div className=' w-fit '>
