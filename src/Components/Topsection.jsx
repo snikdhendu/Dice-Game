@@ -9,12 +9,12 @@ const Topsection = ({selectedNumber,setSelectedNumber,score,error}) => {
    
     console.log(selectedNumber)
     return (
-        <div className='w-full h-52  p-14 flex items-center justify-between'>
-            <div className='text-4xl text-slate-50'>Total Score : { score}</div>
-            <div className='w-96 h-auto flex justify-between items-center flex-col gap-4'>
+        <div className='w-full h-52  p-14 flex md:flex-row flex-col items-center justify-between'>
+            <div className='md:text-4xl text-3xl text-slate-50'>Total Score : { score}</div>
+            <div className='w-96  h-auto flex justify-between items-center flex-col gap-4'>
                 <h1 className=' text-xl text-red-600'>{error}</h1>
                 <h1 className='text-3xl text-slate-50'>Choose Any Number : </h1>
-                <div className='w-96 h-auto flex justify-between items-center'>
+                <div className='md:w-96 w-80 h-auto flex justify-between items-center button-con'>
                     {arrNumber.map((value, i) => (
                         <button
                             key={i}
