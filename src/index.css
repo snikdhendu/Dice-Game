@@ -7,12 +7,13 @@
 
 
 .game-heading {
-  font-size: 70px;
-  font-weight: 600;
-  font-family: 'Roboto', sans-serif;
-  color: #b393d3;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 0px #957dad,
+    font-size: 53px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: #b393d3;
+    width: 155%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px #957dad,
                1px 2px 0px #957dad,
                1px 3px 0px #957dad,
                1px 4px 0px #957dad,
