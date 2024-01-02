@@ -30,3 +30,10 @@ button{
   border-radius: 3px;
   
 }
+.home-img{
+  max-width: 145%;
+}
+.button-con button{
+  width: 47px;
+  height: 45px
+}
