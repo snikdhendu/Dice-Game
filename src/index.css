@@ -28,7 +28,7 @@
   .game-heading {
     font-size: 70px;
     font-weight: 600;
-    width:100%;
+    width:auto;
   }
 }
 button{
