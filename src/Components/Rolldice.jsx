@@ -5,7 +5,7 @@ const Rolldice = ({ currentDice, currentDice2, roleDice, isRolling }) => {
 
 
   return (
-    <div className='w-full h-96 flex items-center justify-center md:gap-5 sm:gap-5 gap-3 flex-col '>
+    <div className='w-full h-96 flex items-center justify-center md:gap-5 sm:gap-5 gap-4 flex-col '>
       <div  className='md:h-64 md:w-1/3 w-11/12 cursor-pointer flex items-center  justify-center'>
         {isRolling ? (
           // Display your rolling GIF or animation here
