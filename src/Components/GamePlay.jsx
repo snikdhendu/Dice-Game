@@ -35,8 +35,10 @@ const GamePlay = ({toggle}) => {
         setIsRolling(false);
 
         if (selectedNumber === randomNumber+randomNumber2) {
-          if(randomNumber==randomNumber2) setScore((prev) => prev + 15);
-          else if(selectedNumber==2 || selectedNumber==12) setScore((prev) => prev + 20);
+            if(randomNumber==randomNumber2){
+             if(selectedNumber==2 || selectedNumber==12) setScore((prev) => prev + 20);
+             else  setScore((prev) => prev + 15);
+          }
           else (setScore((prev) => prev + 10));
           win_audio.play();
 
